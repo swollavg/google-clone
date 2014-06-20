@@ -67,11 +67,12 @@ table {
 .top-links ul {
 	margin: 20px 15px 0 0;
 	font-size: 14px;
+	float: right;
 }
 
 .top-links ul li {
-	display: inline-block;
-	float: right;
+	display: block;
+	float: left;
 	margin-right: 18px;
 
 }
@@ -88,7 +89,7 @@ table {
 	text-decoration: underline;
 }
 
-#sign-in-button {
+#button1 {
 	border: 1px solid black;
 	height: 30px;
 	padding: 8px 13px;
@@ -99,6 +100,11 @@ table {
 	position: relative;
 	bottom: 7px;
 	border-radius: 2px;
+	display: block;
+}
+
+#button1:hover {
+	text-decoration: none;
 }
 
 
@@ -210,13 +216,15 @@ footer ul li a:hover {
 	padding-top: 5px;
 }
 
+
 #left-footer ul li {
 	display: inline-block;
 	margin: 15px 10px 0 20px;
+	float: left;
 }
 
 #right-footer ul li {
-	float: right;
+	float: left;
 	margin: 15px 10px 0 20px;
 }
 
@@ -225,6 +233,5 @@ footer ul li a:hover {
 	position: relative;
 	top: 140px;
 }
-
 
 
