@@ -161,6 +161,7 @@ input:focus {
 
 .button:hover {
 	color: #222222;
+
 }
 
 #search {
@@ -181,6 +182,10 @@ input:focus {
 	padding: 8px 10px;
 }
 
+#lucky:hover, #search:hover {
+	border-color: #c6c6c6;
+	border-bottom-width: 2px;
+}
 
 
 
@@ -232,6 +237,12 @@ footer ul li a:hover {
 #wrapper {
 	position: relative;
 	top: 140px;
+}
+
+#logo a  {
+	width: 265px;
+	display: block;
+	margin: 0 auto;
 }
 
 
